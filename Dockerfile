@@ -11,4 +11,4 @@ RUN pip3 install numpy matplotlib pandas plotly fbprophet
 
 USER 1000
 
-CMD jupyter lab
+CMD jupyter lab --NotebookApp.token=''
